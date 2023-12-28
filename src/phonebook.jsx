@@ -8,7 +8,7 @@ const App = () => {
 
     const App = () => {
         const promise = axios.get('http://localhost:3000/notes')
-        console.log(promise);
+        
         return <h1>AXIOS</h1>
       
       };
